@@ -1,0 +1,109 @@
+.body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 350px;
+  height: 570px;
+  margin: 200px auto;
+  border-radius: 20px;
+}
+
+.nft-image {
+  width: 290px;
+  height: 290px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+  .view {
+    margin: 120px;
+  }
+ .hov {
+  width: 290px;
+  height: 290px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: hsl(178, 100%, 50%);
+  position: absolute;
+  opacity: .10;
+ }
+
+ .hov:hover {
+  opacity: .5;
+ }
+
+
+.name {
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+  margin: 0 25px;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.info {
+  color: hsl(216, 27%, 59%);
+  margin: 10px 25px 0;
+}
+
+.price-and-time {
+  display: flex;
+  margin: 20px 0 0 0;
+  color: hsl(216, 27%, 59%);
+}
+
+.eth {
+  width: 10px;
+  height: 18px;
+  margin: 10px 0 0 20px;
+}
+
+.price {
+  margin: 10px 10px 10px 3px;
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  margin: 10px 10px 10px 120px;
+  font-size: 18px;
+}
+
+.line {
+  width: 310px;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin: auto;
+}
+
+.creator {
+  display: flex;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin: 10px 20px;
+  border: 2px solid hsl(0, 0%, 100%);;
+  border-radius: 30px;
+}
+
+.creation {
+  margin: 15px 5px 10px 0;
+  color: hsl(216, 27%, 59%);
+}
+
+.creator-name{
+  margin: 15px 10px 10px 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.creator-name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
