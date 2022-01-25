@@ -5,41 +5,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-    <title>NFT preview card component</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/cart.css">
+    <title>Ecommerce product Page</title>
 </head>
 
-<body class="body">
-</body>
-<div class="card">
-    <div class="hov">
-        <img src="./images/icon-view.svg" alt="view" class="view">
-    </div>
-    <img src="./images/image-equilibrium.jpg" alt="nft-token" class="nft-image">
-    <div class="text">
-        <h1 class="name">Equilibrium#3429</h1>
+<body>
+    <div class="background">
+        <div class="top-panel" id="top_panel">
+            <div class="top-panel-menu">
+                <img src="./images/icon-menu.svg" alt="" class="menu-img">
+                <img src="./images/logo.svg" alt="" class="top-panel-menu-logo">
+                <div class="top-panel-menu-texts">
+                    <p class="top-panel-menu-text">Collections</p>
+                </div>
+                <div class="top-panel-menu-texts">
+                    <p class="top-panel-menu-text">Men</p>
+                </div>
+                <div class="top-panel-menu-texts">
+                    <p class="top-panel-menu-text">Women</p>
 
-        <p class="info">Equilibrium collection promotes balance and calm</p>
-
-        <div class="price-and-time">
-            <img src="./images/icon-ethereum.svg" alt="ETH" class="eth">
-            <p class="price">0.041ETH</p>
-            <p class="time">3 days left</p>
+                </div>
+                <div class="top-panel-menu-texts">
+                    <p class="top-panel-menu-text">About</p>
+                </div>
+                <div class="top-panel-menu-texts">
+                    <p class="top-panel-menu-text">Contact</p>
+                </div>
+            </div>
+            <div class="top-panel-profile" id="top_panel_profile">
+                <div class="cart-img-box" id="cart_img_box">
+                    <img src="./images/icon-cart.svg" alt="" class="top-panel-profile-cart" id="cart_img">
+                </div>
+                <img src="./images/image-avatar.png" alt="" class="top-panel-profile-avatar">
+            </div>
         </div>
+        <div class="main-panel">
+            <div class="product-panel-images">
+                <img src="./images/image-product-1.jpg" alt="" class="main-image" id="main-image">
 
+
+
+                <div class="main-image-chooser-mobile">
+
+                    <div class="prev-mobile" id="prev-btn-mob">
+                        <div class="prev-mobile-back" id="prev-back-mobile"></div>
+                        <img src="./images/icon-previous.svg" alt="" class="prev-mobile-img" id="prev-mobile">
+                    </div>
+                    <img src="./images/image-product-1.jpg" alt="" class="img-mobile" id="img-mob">
+
+                    <div class="next-mobile" id="next-btn-mob">
+                        <div class="next-mobile-back" id="next-back-mobile"></div>
+                        <img src="./images/icon-next.svg" alt="" class="next-mobile-img" id="next-mobile-img">
+                    </div>
+                </div>
+
+
+
+                <div class="little-images">
+                    <div class="little-image-box">
+                        <img src="./images/image-product-1-thumbnail.jpg" alt="" class="little-image"
+                            id="little-image1">
+                        <div class="little-image-back" id="little-image-back-hover1"></div>
+                    </div>
+                    <div class="little-image-box">
+                        <img src="./images/image-product-2-thumbnail.jpg" alt="" class="little-image"
+                            id="little-image2">
+                        <div class="little-image-back" id="little-image-back-hover2"></div>
+                    </div>
+                    <div class="little-image-box">
+                        <img src="./images/image-product-3-thumbnail.jpg" alt="" class="little-image"
+                            id="little-image3">
+                        <div class="little-image-back" id="little-image-back-hover3"></div>
+                    </div>
+                    <div class="little-image-box">
+                        <img src="./images/image-product-4-thumbnail.jpg" alt="" class="little-image"
+                            id="little-image4">
+                        <div class="little-image-back" id="little-image-back-hover4"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="product-info">
+                <p class="sneaker-company">SNEAKER COMPANY</p>
+                <p class="product-name">Fall Limited Edition Sneakers</p>
+                <p class="product-bio">These low-profile sneakers are your perfect casual wear companion. Featuring
+                    a
+                    durable rubber outer
+                    sole, they'll withstand everything the weather can offer.</p>
+                <div class="price-mobile">
+                    <div class="price-info">
+                        <p class="price">$125.00</p>
+                        <div class="discount">
+                            <p class="discount-number">50%</p>
+                            <div class="discount-back"></div>
+                        </div>
+                    </div>
+                    <p class="real-price">$250.00</p>
+                </div>
+                <div class="buttons">
+                    <div class="amount-button">
+                        <img src="./images/icon-minus.svg" alt="" class="amount-button-minus" id="amount-button-minus">
+                        <p class="amount-button-number" id="amount-button-number">0</p>
+                        <img src="./images/icon-plus.svg" alt="" class="amount-button-plus" id="amount-button-plus">
+                    </div>
+
+                    <div class="addcart-button" id="addcart-button">
+                        <img src="./images/icon-cart.svg" alt="" class="addcart-button-img">
+                        <p class="addcart-button-text">Add to cart</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="img-menu" id="img_menu">
+            <div class="img-chooser">
+                <div class="close">
+                    <img src="./images/icon-close.svg" alt="" class="img-close" id="close_img">
+                </div>
+
+                <div class="main-image-chooser">
+                    <div class="prev" id="prev">
+                        <div class="prev-back"></div>
+                        <img src="./images/icon-previous.svg" alt="" class="img-prev">
+                    </div>
+
+                    <img src="./images/image-product-1.jpg" alt="" class="main-image-in-chooser" id="main_image_in">
+
+
+                    <div class="next" id="next">
+                        <div class="prev-back"></div>
+                        <img src="./images/icon-next.svg" alt="" class="img-prev">
+                    </div>
+                </div>
+
+
+                <div class="little-images">
+                    <div class="little-image-box">
+                        <img src="./images/image-product-1-thumbnail.jpg" alt="" class="little-image-in"
+                            id="little-image1-in">
+                        <div class="little-image-back-in" id="little-image-back-hover1-in"></div>
+                    </div>
+                    <div class="little-image-box">
+                        <img src="./images/image-product-2-thumbnail.jpg" alt="" class="little-image-in"
+                            id="little-image2-in">
+                        <div class="little-image-back-in" id="little-image-back-hover2-in"></div>
+                    </div>
+                    <div class="little-image-box">
+                        <img src="./images/image-product-3-thumbnail.jpg" alt="" class="little-image-in"
+                            id="little-image3-in">
+                        <div class="little-image-back-in" id="little-image-back-hover3-in"></div>
+                    </div>
+                    <div class="little-image-box">
+                        <img src="./images/image-product-4-thumbnail.jpg" alt="" class="little-image-in"
+                            id="little-image4-in">
+                        <div class="little-image-back-in" id="little-image-back-hover4-in"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     </div>
 
-    <div class="line"></div>
-    <div class="creator">
-        <img src="./images/image-avatar.png" alt="avatar" class="avatar">
-        <p class="creation">Creation Of</p>
-        <p class="creator-name">Jules Wyvern</p>
-    </div>
-</div>
-
-</div>
+    <script src="./js/calculating.js" defer></script>
+    <script src="./js/images.js" defer></script>
+    <script src="./js/cart.js" defer></script>
+</body>
 
 </html>
